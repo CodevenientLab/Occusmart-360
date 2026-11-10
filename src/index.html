@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Occusmart 360 — Operations Demo</title>
+<link rel="stylesheet" href="./styles.css">
+<script src="./app.js" defer></script>
+</head>
+<body>
+<div class="shell">
+<aside><div class="brand">occu<b>smart</b></div><div class="subbrand">360 · Operations</div>
+<nav aria-label="Main navigation">
+<button class="active" data-view="overview">Overview</button>
+<button data-view="clients">Employer clients</button>
+<button data-view="appointments">Appointments</button>
+<button data-view="invoices">Invoices</button>
+<button data-view="tasks">Work queue</button>
+</nav><div class="side-foot">Codevenient Consulting<br>Internal product demonstration<br>Not approved for patient data</div></aside>
+<main><header class="top"><span class="eyebrow">Occusmart / Operations</span><div class="small muted">Demo workspace · local browser data</div></header>
+<section class="notice" role="note"><strong>Demonstration environment.</strong> Records are fictional. Data stays in this browser and may be lost. Do not enter patient, employee health, or confidential business information.</section>
+<div id="app" aria-live="polite"></div></main></div>
+<dialog id="editor"><div class="modal"><div class="toolbar"><h2 id="form-title">New record</h2><button class="btn" id="close" type="button">Close</button></div><form id="record-form"></form></div></dialog>
+<div id="feedback" role="status" aria-live="polite"></div>
+</body>
+</html>
